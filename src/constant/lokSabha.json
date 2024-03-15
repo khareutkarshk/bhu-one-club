@@ -1,0 +1,597 @@
+[
+    {
+        "id": 1,
+        "name": "Narendra Modi",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 2,
+        "name": "Maneka Gandhi",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 3,
+        "name": "Shri Amit Shah",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 4,
+        "name": "Shri Anurag Singh Thakur",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 5,
+        "name": "Arjun Munda",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 6,
+        "name": "Ashwini Kumar Choubey",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 7,
+        "name": "Dr Harsh Vardhan",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 8,
+        "name": "Dr Jitendra Singh",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 9,
+        "name": "Dr Mahendra Nath Pandey",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 10,
+        "name": "Gajendra Singh Shekhawat",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 11,
+        "name": "Gautam Gambhir",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 12,
+        "name": "General (Retd) V K Singh",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 13,
+        "name": "Giriraj Singh",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 14,
+        "name": "Renuka Singh",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 15,
+        "name": "Kiren Rijiju",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 16,
+        "name": "Kirron Kher",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 17,
+        "name": "Manoj Tiwari",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 18,
+        "name": "Meenakshi Lekhi",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 19,
+        "name": "Hema Malini",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 20,
+        "name": "Narendra Singh Tomar",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 21,
+        "name": "Ramesh Pokhriyal Nishank",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 22,
+        "name": "Nitin Gadkari",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 23,
+        "name": "Rajnath Singh",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 24,
+        "name": "Ravi Kishan",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 25,
+        "name": "Ravi Shankar Prasad",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 26,
+        "name": "Sadhvi Niranjan Jyoti",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 27,
+        "name": "Santosh Gangwar",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 28,
+        "name": "Shripad Yesso Naik",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 29,
+        "name": "Smriti Irani",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 30,
+        "name": "Pratap Chandra Sarangi",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 31,
+        "name": "Tejaswi Surya",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 32,
+        "name": "Adhir Ranjan Chowdhury",
+        "portfolio": "I.N.C"
+      },
+      {
+        "id": 33,
+        "name": "Anto Antony",
+        "portfolio": "I.N.C"
+      },
+      {
+        "id": 34,
+        "name": "Dr Shashi Tharoor",
+        "portfolio": "I.N.C"
+      },
+      {
+        "id": 35,
+        "name": "Gaurav Gogoi",
+        "portfolio": "I.N.C"
+      },
+      {
+        "id": 36,
+        "name": "Gurjeet Singh Aujla",
+        "portfolio": "I.N.C"
+      },
+      {
+        "id": 37,
+        "name": "Karti Chidambaram",
+        "portfolio": "I.N.C"
+      },
+      {
+        "id": 38,
+        "name": "Manish Tiwari",
+        "portfolio": "I.N.C"
+      },
+      {
+        "id": 39,
+        "name": "Ramya Haridas",
+        "portfolio": "I.N.C"
+      },
+      {
+        "id": 40,
+        "name": "Sonia Gandhi",
+        "portfolio": "I.N.C"
+      },
+      {
+        "id": 41,
+        "name": "Ravneet Singh Bittu",
+        "portfolio": "I.N.C"
+      },
+      {
+        "id": 42,
+        "name": "Vincent H Pala",
+        "portfolio": "I.N.C"
+      },
+      {
+        "id": 43,
+        "name": "Nakul K Nath",
+        "portfolio": "I.N.C"
+      },
+      {
+        "id": 44,
+        "name": "Subrahmanyam Jaishankar",
+        "portfolio": "Union Minister"
+      },
+      {
+        "id": 45,
+        "name": "Nirmala Sitharaman",
+        "portfolio": "Union Minister"
+      },
+      {
+        "id": 46,
+        "name": "Mukhtar Abbas Naqvi",
+        "portfolio": "Union Minister"
+      },
+      {
+        "id": 47,
+        "name": "Ashwini Vaishnaw",
+        "portfolio": "Union Minister"
+      },
+      {
+        "id": 48,
+        "name": "Bhupendra Yadav",
+        "portfolio": "Union Minister"
+      },
+      {
+        "id": 49,
+        "name": "Dharmendra Pradhan",
+        "portfolio": "Union Minister"
+      },
+      {
+        "id": 50,
+        "name": "Asaduddin Owaisi",
+        "portfolio": "A.I.M.I.M"
+      },
+      {
+        "id": 51,
+        "name": "Syed Imtiaz Jaleel",
+        "portfolio": "A.I.M.I.M"
+      },
+      {
+        "id": 52,
+        "name": "Badruddin Ajmal",
+        "portfolio": "A.I.U.D.F"
+      },
+      {
+        "id": 53,
+        "name": "Bhartruhari Mahtab",
+        "portfolio": "B.J.D"
+      },
+      {
+        "id": 54,
+        "name": "Pinaki Misra",
+        "portfolio": "B.J.D"
+      },
+      {
+        "id": 55,
+        "name": "Supriya Sule",
+        "portfolio": "N.C.P"
+      },
+      {
+        "id": 56,
+        "name": "Faizal PP Mohammed",
+        "portfolio": "N.C.P"
+      },
+      {
+        "id": 57,
+        "name": "Hemant Tukaram Godse",
+        "portfolio": "Shivsena"
+      },
+      {
+        "id": 58,
+        "name": "Rajan Baburao Vichare",
+        "portfolio": "Shivsena"
+      },
+      {
+        "id": 59,
+        "name": "Arvind Sawant",
+        "portfolio": "Shivsena"
+      },
+      {
+        "id": 60,
+        "name": "Abhishek Banerjee",
+        "portfolio": "A.I.T.M.C"
+      },
+      {
+        "id": 61,
+        "name": "Mimi Chakraborty",
+        "portfolio": "A.I.T.M.C"
+      },
+      {
+        "id": 62,
+        "name": "Sudip Bandyopadhyay",
+        "portfolio": "A.I.T.M.C"
+      },
+      {
+        "id": 63,
+        "name": "Mahua Moitra",
+        "portfolio": "A.I.T.M.C"
+      },
+      {
+        "id": 64,
+        "name": "Nusrat Jahan",
+        "portfolio": "A.I.T.M.C"
+      },
+      {
+        "id": 65,
+        "name": "Anuradha Chinta",
+        "portfolio": "YSR Congress"
+      },
+      {
+        "id": 66,
+        "name": "Midhun Reddy",
+        "portfolio": "YSR Congress"
+      },
+      {
+        "id": 67,
+        "name": "Nandigam Suresh",
+        "portfolio": "YSR Congress"
+      },
+      {
+        "id": 68,
+        "name": "M Selvaraj",
+        "portfolio": "C.P.I"
+      },
+      {
+        "id": 69,
+        "name": "Harsimrat Kaur Badal",
+        "portfolio": "S.A.D"
+      },
+      {
+        "id": 70,
+        "name": "Sukhbir Singh Badal",
+        "portfolio": "S.A.D"
+      },
+      {
+        "id": 71,
+        "name": "Pashupati Kumar Paras",
+        "portfolio": "L.J.P"
+      },
+      {
+        "id": 72,
+        "name": "Chirag Paswan",
+        "portfolio": "L.J.P (Ram Vilas)"
+      },
+      {
+        "id": 73,
+        "name": "P R Natarajan",
+        "portfolio": "C.P.I"
+      },
+      {
+        "id": 74,
+        "name": "Mohammad Akbar Lone",
+        "portfolio": "J&K NC"
+      },
+      {
+        "id": 75,
+        "name": "Farooq Abdullah",
+        "portfolio": "J&K NC"
+      },
+      {
+        "id": 76,
+        "name": "Hasnain Masoodi",
+        "portfolio": "J&K NC"
+      },
+      {
+        "id": 77,
+        "name": "Afzal Ansari",
+        "portfolio": "B.S.P"
+      },
+      {
+        "id": 78,
+        "name": "Sangeeta Azad",
+        "portfolio": "B.S.P"
+      },
+      {
+        "id": 79,
+        "name": "Atul Rai",
+        "portfolio": "B.S.P"
+      },
+      {
+        "id": 80,
+        "name": "Anupriya Patel",
+        "portfolio": "Apna Dal(Sonelal)"
+      },
+      {
+        "id": 81,
+        "name": "Dayanidhi Maran",
+        "portfolio": "D.M.K"
+      },
+      {
+        "id": 82,
+        "name": "T.R Baalu",
+        "portfolio": "D.M.K"
+      },
+      {
+        "id": 83,
+        "name": "Kanimozhi",
+        "portfolio": "D.M.K"
+      },
+      {
+        "id": 84,
+        "name": "C.N. Annadurai",
+        "portfolio": "D.M.K"
+      },
+      {
+        "id": 85,
+        "name": "Nityanand Rai",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 86,
+        "name": "Arjun Ram Meghwal",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 87,
+        "name": "Vijay Kumar Hansdak",
+        "portfolio": "J.M.M"
+      },
+      {
+        "id": 88,
+        "name": "Prahlad Joshi",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 89,
+        "name": "Rajyavardhan Singh Rathore",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 90,
+        "name": "Alok Suman",
+        "portfolio": "J.D.U"
+      },
+      {
+        "id": 91,
+        "name": "D.V Sadanand Gowda",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 92,
+        "name": "Raj Kumar Singh",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 93,
+        "name": "Dr. Subhash Ramrao",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 94,
+        "name": "S.P Singh Baghel",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 95,
+        "name": "Sisir Adhikari",
+        "portfolio": "A.I.T.M.C"
+      },
+      {
+        "id": 96,
+        "name": "Dibyendu Adhikari",
+        "portfolio": "A.I.T.M.C"
+      },
+      {
+        "id": 97,
+        "name": "N.K Premachandran",
+        "portfolio": "R.S.P"
+      },
+      {
+        "id": 98,
+        "name": "Rao Inderjit Singh",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 99,
+        "name": "Hanuman Beniwal",
+        "portfolio": "R.L.P"
+      },
+      {
+        "id": 100,
+        "name": "Shatrughan Sinha",
+        "portfolio": "A.I.T.M.C"
+      },
+      {
+        "id": 101,
+        "name": "Satabdi Roy",
+        "portfolio": "A.I.T.M.C"
+      },
+      {
+        "id": 102,
+        "name": "Tirath Singh Rawat",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 103,
+        "name": "Sunny Deol",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 104,
+        "name": "Anant kumar hegde",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 105,
+        "name": "locket Chatterjee",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 106,
+        "name": "Dilip Ghosh",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 107,
+        "name": "S.S. Ahluwalia",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 108,
+        "name": "John Barla",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 109,
+        "name": "Kuldeep Rai Sharma",
+        "portfolio": "I.N.C"
+      },
+      {
+        "id": 110,
+        "name": "Kotha Prabhakar Reddy",
+        "portfolio": "T.R.S"
+      },
+      {
+        "id": 111,
+        "name": "Nama Nageswara Rao",
+        "portfolio": "T.R.S"
+      },
+      {
+        "id": 112,
+        "name": "Navneet Ravi Rana",
+        "portfolio": "Independent"
+      },
+      {
+        "id": 113,
+        "name": "Naba Kumar Sarania",
+        "portfolio": "Independent"
+      },
+      {
+        "id": 114,
+        "name": "Sumalatha Ambareesh",
+        "portfolio": "Independent"
+      },
+      {
+        "id": 115,
+        "name": "shudhanshu trivedi",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 116,
+        "name": "Dimple yadav",
+        "portfolio": "SP"
+      },
+      {
+        "id": 117,
+        "name": "Jamyang Tsering Namgyal",
+        "portfolio": "B.J.P"
+      },
+      {
+        "id": 118,
+        "name": "chandrani murmu",
+        "portfolio": "BJD"
+      },
+      {
+        "id": 119,
+        "name": "Rahul Gandhi",
+        "portfolio": "INC"
+      }
+]
