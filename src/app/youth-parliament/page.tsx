@@ -6,7 +6,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import YouthParliament from '@/Components/YouthParliament';
 import Sidebar from '@/Components/Sidebar';
-function page() {
+function Page() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -43,4 +43,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
