@@ -11,16 +11,19 @@ function Main() {
             id: 1,
             title: "Youth Parliament",
             image: parliament,
+            slug: "youth-parliament"
         },
         {
             id: 3,
             title: "Quiz",
             image: quiz,
+            slug: "quiz"
         },
         {
             id: 2,
             title: "Mock CSE",
             image: mock,
+            slug: "mock-cse"
         },
         
     ])
@@ -31,7 +34,7 @@ function Main() {
         <div className='w-full gap-8 mt-8 flex flex-wrap'>
             {
                 data.map((item:any) => (
-                    <Card key={item.id} title={item.title} image={item.image}></Card>
+                    <Card key={item.id} data={item}></Card>
                 ))
             }
         </div>
