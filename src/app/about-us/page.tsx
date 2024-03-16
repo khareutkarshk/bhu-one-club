@@ -10,7 +10,7 @@ import { BsWhatsapp } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 import { FaInstagram } from "react-icons/fa";
 
-function page() {
+function Page() {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleSidebar = () => {
@@ -64,4 +64,4 @@ function page() {
     )
 }
 
-export default page
+export default Page
