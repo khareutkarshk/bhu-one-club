@@ -1,0 +1,552 @@
+[
+    {
+      "id,": 1,
+      "name,": "Yogi Adiyanath",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 2,
+      "name,": "Keshav Prashad Maurya",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 3,
+      "name,": "Rajbala",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 4,
+      "name,": "Neel Ratan Singh",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 5,
+      "name,": "Neelkanth Tewari",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 6,
+      "name,": "Arvind Kumar Sharma",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 7,
+      "name,": "Rajesh Gautam",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 8,
+      "name,": "Baby Rani Maurya",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 9,
+      "name,": "Brijesh Pathak",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 10,
+      "name,": "Chetram Pasi",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 11,
+      "name,": "Swantatra Dev Singh",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 12,
+      "name,": "Jatin Prasad ",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 13,
+      "name,": "Suresh Kumar Khanna",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 14,
+      "name,": "Niraj Bora",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 15,
+      "name,": "Aditi Singh",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 16,
+      "name,": "Dharampal Singh",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 17,
+      "name,": "Surya Pratap Shahi",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 18,
+      "name,": "Anumpama Jaiswal",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 19,
+      "name,": "Prateek Bhushan Singh",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 20,
+      "name,": "Awadesh Singh",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 21,
+      "name,": "Ankur Tiwari",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 22,
+      "name,": "Anil Rajbjar",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 23,
+      "name,": "Aman Giri",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 24,
+      "name,": "Ravindra Jaiswal",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 25,
+      "name,": "Tribhwan Ram",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 26,
+      "name,": "Devendra Singh Rajput",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 27,
+      "name,": "Thakur Jaivir Singh",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 28,
+      "name,": "Ajit Pal Tyagi",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 29,
+      "name,": "Mahendra Singh Khadakvanshi",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 30,
+      "name,": "Anjula SIngh Mahaur",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 31,
+      "name,": "Brijesh Singh Rawat",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 32,
+      "name,": "Jai Pratap Singh",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 33,
+      "name,": "Daya Shankar Singh",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 34,
+      "name,": "Jai Devi",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 35,
+      "name,": "Kirat Singh",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 36,
+      "name,": "Rajeshwar Singh",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 37,
+      "name,": "BIjay laxmi Gautam",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 38,
+      "name,": "Salabh Mani Tripathi",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 39,
+      "name,": "Ashutosh Shukla",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 40,
+      "name,": "Asim Arun",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 41,
+      "name,": "Ashutosh Tandon",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 42,
+      "name,": "Asha Maurya",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 43,
+      "name,": "Krishan Pal Mallick",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 44,
+      "name,": "Archana Pandey",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 45,
+      "name,": "Pankaj Singh",
+      "portfolio": "BJP"
+    },
+    {
+      "id,": 46,
+      "name,": "Dananjay SIngh",
+      "portfolio": "JD(U)"
+    },
+    {
+      "id,": 47,
+      "name,": "Raghuraj Pratap Singh",
+      "portfolio": "JDS"
+    },
+    {
+      "id,": 48,
+      "name,": "Sunil Patel",
+      "portfolio": "AD(S)"
+    },
+    {
+      "id,": 49,
+      "name,": "Jeet Lal Patel",
+      "portfolio": "AD(S)"
+    },
+    {
+      "id,": 50,
+      "name,": "Vachaspati",
+      "portfolio": "AD(S)"
+    },
+    {
+      "id,": 51,
+      "name,": "Shafiq Ahmed Ansari",
+      "portfolio": "AD(S)"
+    },
+    {
+      "id,": 52,
+      "name,": "Ram Niwas Verma",
+      "portfolio": "AD(S)"
+    },
+    {
+      "id,": 53,
+      "name,": "Vipul Dubey",
+      "portfolio": "NISHAD"
+    },
+    {
+      "id,": 54,
+      "name,": "Ramesh Singh",
+      "portfolio": "NISHAD"
+    },
+    {
+      "id,": 55,
+      "name,": "Vinod Kumar Bind",
+      "portfolio": "NISHAD"
+    },
+    {
+      "id,": 56,
+      "name,": "Anil Kumar Tripathi",
+      "portfolio": "NISHAD"
+    },
+    {
+      "id,": 57,
+      "name,": "Vivek Nand Pandey",
+      "portfolio": "NISHAD"
+    },
+    {
+      "id,": 58,
+      "name,": "Sachin Yadav",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 59,
+      "name,": "Akhilesh Yadav",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 60,
+      "name,": "Abhay Singh",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 61,
+      "name,": "Armaan Khan",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 62,
+      "name,": "Lucky Yadav",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 63,
+      "name,": "Shivpal Yadav",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 64,
+      "name,": "Brajesh Yadav",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 65,
+      "name,": "Atul Pradhan",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 66,
+      "name,": "Usha Maurya",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 67,
+      "name,": "Iqbaal Mehmood",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 68,
+      "name,": "Gaurav Kumar",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 69,
+      "name,": "Durga Prasad Yadav",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 70,
+      "name,": "Devendra Pratap Singh",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 71,
+      "name,": "Mo. Tahir Khan",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 72,
+      "name,": "Dr. Pallavi Patel",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 73,
+      "name,": "Ram Singh Patel",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 74,
+      "name,": "Samarpal Singh",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 75,
+      "name,": "Pankaj Malik",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 76,
+      "name,": "Ram Awtar Singh Saini",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 77,
+      "name,": "Jai Kishan Sahu",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 78,
+      "name,": "Saiyada Khatoon",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 79,
+      "name,": "Hakim Lal Bind",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 80,
+      "name,": "Swami Omwesh",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 81,
+      "name,": "Prabhunarayan Yadav",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 82,
+      "name,": "Haji Irfan Solanki",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 83,
+      "name,": "Zahid Beg",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 84,
+      "name,": "Suhaib Ansari",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 85,
+      "name,": "Dara Singh Chauhan",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 86,
+      "name,": "Shahid Manzoor",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 87,
+      "name,": "Ragini Sonkar",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 88,
+      "name,": "Nafees Ansari",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 89,
+      "name,": "Mata Prasad Pandey",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 90,
+      "name,": "Ram Murti Verma",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 91,
+      "name,": "Sangram Yadav",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 92,
+      "name,": "Shiv Pratap Yadav",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 93,
+      "name,": "Vishambhar Singh Yadav",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 94,
+      "name,": "Ram Achal Rajbhar",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 95,
+      "name,": "Ramakant Yadav",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 96,
+      "name,": "Rekha Verma",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 97,
+      "name,": "Rakesh Pratap Singh",
+      "portfolio": "SP"
+    },
+    {
+      "id,": 98,
+      "name,": "Mehboob Ali",
+      "portfolio": "SP   "
+    },
+    {
+      "id,": 99,
+      "name,": "Rajpal Singh Balliyan",
+      "portfolio": "RLD"
+    },
+    {
+      "id,": 100,
+      "name,": "Ashraf Ali Khan",
+      "portfolio": "RLD"
+    },
+    {
+      "id,": 101,
+      "name,": "Chandan Chauhan",
+      "portfolio": "RLD"
+    },
+    {
+      "id,": 102,
+      "name,": "Madan Bhaiya",
+      "portfolio": "RLD"
+    },
+    {
+      "id,": 103,
+      "name,": "Ghulam Mohammad",
+      "portfolio": "RLD"
+    },
+    {
+      "id,": 104,
+      "name,": "Jagdish Narayan Rai",
+      "portfolio": "SBSP"
+    },
+    {
+      "id,": 105,
+      "name,": "Abbas Ansari",
+      "portfolio": "SBSP"
+    },
+    {
+      "id,": 106,
+      "name,": "Doodhram",
+      "portfolio": "SBSP"
+    },
+    {
+      "id,": 107,
+      "name,": "Om Prakash Rajbhar",
+      "portfolio": "SBSP"
+    },
+    {
+      "id,": 108,
+      "name,": "Virendra Chaudhary",
+      "portfolio": "INC"
+    },
+    {
+      "id,": 109,
+      "name,": "Aradhana Mishra",
+      "portfolio": "INC"
+    },
+    {
+      "id,": 110,
+      "name,": "Umashankar Singh",
+      "portfolio": "BSP"
+    }
+   ]

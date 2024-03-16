@@ -1,0 +1,607 @@
+[
+    {
+      "id,": 1,
+      "name": "Narendra Modi",
+      "portfolio,": "B.J.P"
+    },
+    {
+      "id,": 2,
+      "portfolio,": "B.J.P",
+      "name": "Amit Shah"
+    },
+    {
+      "id,": 3,
+      "portfolio,": "B.J.P",
+      "name": "J.P. Nadda"
+    },
+    {
+      "id,": 4,
+      "portfolio,": "B.J.P",
+      "name": "Anurag Thakur"
+    },
+    {
+      "id,": 5,
+      "portfolio,": "B.J.P",
+      "name": "Rajnath Singh"
+    },
+    {
+      "id,": 6,
+      "portfolio,": "B.J.P",
+      "name": "Nirmala Sitharaman"
+    },
+    {
+      "id,": 7,
+      "portfolio,": "B.J.P",
+      "name": "Sambit Patra "
+    },
+    {
+      "id,": 8,
+      "portfolio,": "B.J.P",
+      "name": "Hemanta Biswa Sarma"
+    },
+    {
+      "id,": 9,
+      "portfolio,": "B.J.P",
+      "name": "Yogi Adityanath"
+    },
+    {
+      "id,": 10,
+      "portfolio,": "B.J.P",
+      "name": "Nitin Gadkari"
+    },
+    {
+      "id,": 11,
+      "portfolio,": "B.J.P",
+      "name": "Kiran Rijiju"
+    },
+    {
+      "id,": 12,
+      "portfolio,": "CPI(M)",
+      "name": "Sitaram Yechuri"
+    },
+    {
+      "id,": 13,
+      "portfolio,": "CPI(M)",
+      "name": "PR Natarajan"
+    },
+    {
+      "id,": 14,
+      "portfolio,": "CPI(M)",
+      "name": "Brinda Karat"
+    },
+    {
+      "id,": 15,
+      "portfolio,": "Congress ",
+      "name": "Rahul Gandhi"
+    },
+    {
+      "id,": 16,
+      "portfolio,": "Congress ",
+      "name": "Sonia Gandhi"
+    },
+    {
+      "id,": 17,
+      "portfolio,": "Congress ",
+      "name": "K.C. Venugopal"
+    },
+    {
+      "id,": 18,
+      "portfolio,": "Congress ",
+      "name": "Randeep Singh Surjewala"
+    },
+    {
+      "id,": 19,
+      "portfolio,": "Congress ",
+      "name": "Mallikarjun Kharge"
+    },
+    {
+      "id,": 20,
+      "portfolio,": "Congress ",
+      "name": "Adhir Ranjan Chaudhary "
+    },
+    {
+      "id,": 21,
+      "portfolio,": "Congress ",
+      "name": "Ajay Makan"
+    },
+    {
+      "id,": 22,
+      "portfolio,": "DMK",
+      "name": "M.K. Stalin"
+    },
+    {
+      "id,": 23,
+      "portfolio,": "DMK",
+      "name": "T.R. Ballu"
+    },
+    {
+      "id,": 24,
+      "portfolio,": "Goa Forward portfolio ",
+      "name": "Vijay Desai "
+    },
+    {
+      "id,": 25,
+      "portfolio,": "Goa Forward portfolio",
+      "name": "Raj Malik"
+    },
+    {
+      "id,": 26,
+      "portfolio,": "H.A.M",
+      "name": "Jitan Ram Manjhi "
+    },
+    {
+      "id,": 27,
+      "portfolio,": "J&K National Conference ",
+      "name": "Umar Abdullah"
+    },
+    {
+      "id,": 28,
+      "portfolio,": "J&K National Conference ",
+      "name": "Farook Abdullah"
+    },
+    {
+      "id,": 29,
+      "portfolio,": "Aam Aadmi portfolio",
+      "name": "Arwind Kejriwal"
+    },
+    {
+      "id,": 30,
+      "portfolio,": "Aam Aadmi portfolio",
+      "name": "Sanjay Singh"
+    },
+    {
+      "id,": 31,
+      "portfolio,": "Aam Aadmi portfolio",
+      "name": "Manish Sisodia "
+    },
+    {
+      "id,": 32,
+      "portfolio,": "Aam Aadmi portfolio",
+      "name": "Bhagwant Mann"
+    },
+    {
+      "id,": 33,
+      "portfolio,": "Aam Aadmi portfolio",
+      "name": "Raghav Chadhha"
+    },
+    {
+      "id,": 34,
+      "portfolio,": "Aam Aadmi portfolio",
+      "name": "Amanatullah Khan"
+    },
+    {
+      "id,": 35,
+      "portfolio,": "AIMIM",
+      "name": "Asaduddin Owaisi"
+    },
+    {
+      "id,": 36,
+      "portfolio,": "AIMIM",
+      "name": "Waris Pathan"
+    },
+    {
+      "id,": 37,
+      "portfolio,": "TMC",
+      "name": "Mamta Banerjee "
+    },
+    {
+      "id,": 38,
+      "portfolio,": "TMC",
+      "name": "Bratya Basu"
+    },
+    {
+      "id,": 39,
+      "portfolio,": "TMC",
+      "name": "Mahua Moitra"
+    },
+    {
+      "id,": 40,
+      "portfolio,": "TMC",
+      "name": "Derek O' Brian"
+    },
+    {
+      "id,": 41,
+      "portfolio,": "TMC",
+      "name": "Sudip Bandopadhyay "
+    },
+    {
+      "id,": 42,
+      "portfolio,": "TMC",
+      "name": "Parth Chatterjee"
+    },
+    {
+      "id,": 43,
+      "portfolio,": "Naga People Front",
+      "name": "Neiphiu Rio"
+    },
+    {
+      "id,": 44,
+      "portfolio,": "BSP",
+      "name": "Mayawati"
+    },
+    {
+      "id,": 45,
+      "portfolio,": "BSP",
+      "name": "Satish Chandra Mishra"
+    },
+    {
+      "id,": 46,
+      "portfolio,": "INC",
+      "name": "Kanhaiya kumar "
+    },
+    {
+      "id,": 47,
+      "portfolio,": "CPI",
+      "name": "Binoy Biswa"
+    },
+    {
+      "id,": 48,
+      "portfolio,": "Suheldev BSP ",
+      "name": "OP Rajbhar"
+    },
+    {
+      "id,": 49,
+      "portfolio,": "Samaajwadi portfolio",
+      "name": "Dimple Yadav"
+    },
+    {
+      "id,": 50,
+      "portfolio,": "Samaajwadi portfolio",
+      "name": "Akhilesh Yadav"
+    },
+    {
+      "id,": 51,
+      "portfolio,": "Samaajwadi portfolio",
+      "name": "Ramgopal Yadal"
+    },
+    {
+      "id,": 52,
+      "portfolio,": "Samaajwadi portfolio",
+      "name": "Azam Khan"
+    },
+    {
+      "id,": 53,
+      "portfolio,": "Samaajwadi portfolio",
+      "name": "ST Hasan"
+    },
+    {
+      "id,": 54,
+      "portfolio,": "Telugu Desham portfolio",
+      "name": "N.Chandrababu Naidu"
+    },
+    {
+      "id,": 55,
+      "portfolio,": "Telugu Desham portfolio ",
+      "name": "Nara Lokesh"
+    },
+    {
+      "id,": 56,
+      "portfolio,": "Telugu Desham portfolio ",
+      "name": "Rammohan Naidu"
+    },
+    {
+      "id,": 57,
+      "portfolio,": "A.I.A.D.M.K",
+      "name": "K. Palaniswami"
+    },
+    {
+      "id,": 58,
+      "portfolio,": "A.I.A.D.M.K",
+      "name": "P Venugopal"
+    },
+    {
+      "id,": 59,
+      "portfolio,": "Shiromani Akaali Dal",
+      "name": "Sukhbir Singh Badal"
+    },
+    {
+      "id,": 60,
+      "portfolio,": "Shiromani Akaali Dal",
+      "name": "Harsimran Kaur Badal"
+    },
+    {
+      "id,": 62,
+      "portfolio,": "Apna Dal(Sonelal)",
+      "name": "Anupriya Patel"
+    },
+    {
+      "id,": 63,
+      "portfolio,": "Apna Dal(Sonelal)",
+      "name": "Pakauri Lal"
+    },
+    {
+      "id,": 64,
+      "portfolio,": "B.J.D",
+      "name": "Navin Patnaik"
+    },
+    {
+      "id,": 65,
+      "portfolio,": "B.J.D",
+      "name": "Pinaki Mishra"
+    },
+    {
+      "id,": 66,
+      "portfolio,": "B.J.D",
+      "name": "Sasmit Patra"
+    },
+    {
+      "id,": 68,
+      "portfolio,": "J.A.P",
+      "name": "Pappu Yadav"
+    },
+    {
+      "id,": 69,
+      "portfolio,": "JDS",
+      "name": "H.D Kumaraswami "
+    },
+    {
+      "id,": 70,
+      "portfolio,": "JDS",
+      "name": "H.D Devegowda "
+    },
+    {
+      "id,": 71,
+      "portfolio,": "JDU",
+      "name": "Nitish Kumar"
+    },
+    {
+      "id,": 72,
+      "portfolio,": "JDU",
+      "name": "Lallan Singh"
+    },
+    {
+      "id,": 73,
+      "portfolio,": "JDU",
+      "name": "Ramnath Thakur"
+    },
+    {
+      "id,": 74,
+      "portfolio,": "JDU",
+      "name": "Upendra Kushwaha"
+    },
+    {
+      "id,": 75,
+      "portfolio,": "JMM",
+      "name": "Hemant Soren"
+    },
+    {
+      "id,": 76,
+      "portfolio,": "JMM",
+      "name": "Shibu Soren"
+    },
+    {
+      "id,": 77,
+      "portfolio,": "JMM",
+      "name": "Supriya Bhattacharya "
+    },
+    {
+      "id,": 78,
+      "portfolio,": "NCP",
+      "name": "Sharad Pawar"
+    },
+    {
+      "id,": 79,
+      "portfolio,": "NCP",
+      "name": "Ajit Pawar"
+    },
+    {
+      "id,": 80,
+      "portfolio,": "NCP",
+      "name": "Supriya Sule"
+    },
+    {
+      "id,": 81,
+      "portfolio,": "NCP",
+      "name": "Jayant Patel"
+    },
+    {
+      "id,": 82,
+      "portfolio,": "NCP",
+      "name": "Prafull Patel"
+    },
+    {
+      "id,": 83,
+      "portfolio,": "PDP",
+      "name": "Mehbooba Mufti"
+    },
+    {
+      "id,": 84,
+      "portfolio,": "PDP",
+      "name": "Muzaffar Hussain Baig"
+    },
+    {
+      "id,": 85,
+      "portfolio,": "Rashtriya Janta Dal",
+      "name": "Lalu Yadav"
+    },
+    {
+      "id,": 85,
+      "portfolio,": "Rashtriya Janta Dal",
+      "name": "Tejaswi Yadav"
+    },
+    {
+      "id,": 87,
+      "portfolio,": "Rashtriya Janta Dal",
+      "name": "Jagdanand Singh"
+    },
+    {
+      "id,": 88,
+      "portfolio,": "Rashtriya Janta Dal",
+      "name": "Manoj Kumar Jha"
+    },
+    {
+      "id,": 89,
+      "portfolio,": "Rashtriya Janta Dal",
+      "name": "Abdul Bari Siddiqui"
+    },
+    {
+      "id,": 90,
+      "portfolio,": "YSR Congress ",
+      "name": "YS Jagan Mohan Reddy"
+    },
+    {
+      "id,": 91,
+      "portfolio,": "YSR Congress ",
+      "name": "V. Vijay Sai Reddy"
+    },
+    {
+      "id,": 92,
+      "portfolio,": "YSR Congress ",
+      "name": "P.V Midhun Reddy"
+    },
+    {
+      "id,": 93,
+      "portfolio,": "YSR Congress ",
+      "name": "K. Narayan Swamy"
+    },
+    {
+      "id,": 94,
+      "portfolio,": "TRS",
+      "name": "K. Chandrashekar Rao"
+    },
+    {
+      "id,": 95,
+      "portfolio,": "TRS",
+      "name": "K.T Rama Rao"
+    },
+    {
+      "id,": 96,
+      "portfolio,": "TRS",
+      "name": "J. Santosh Kumar"
+    },
+    {
+      "id,": 97,
+      "portfolio,": "A.G.P",
+      "name": "Atul Bora"
+    },
+    {
+      "id,": 98,
+      "portfolio,": "NPP",
+      "name": "Conrad Sangma"
+    },
+    {
+      "id,": 99,
+      "portfolio,": "NPP",
+      "name": "Agatha Sangma"
+    },
+    {
+      "id,": 100,
+      "portfolio,": "Sikkim Krantikari Morcha",
+      "name": "Prem Singh Tamang"
+    },
+    {
+      "id,": 101,
+      "portfolio,": "Bodoland People Front",
+      "name": "Rabiram Narzary"
+    },
+    {
+      "id,": 102,
+      "portfolio,": "J.J.P",
+      "name": "Dushyant Chautala"
+    },
+    {
+      "id,": 103,
+      "portfolio,": "J.J.P",
+      "name": "Ajay Singh Chautala"
+    },
+    {
+      "id,": 104,
+      "portfolio,": "L.I.P",
+      "name": "Simranjit Singh Bains"
+    },
+    {
+      "id,": 105,
+      "portfolio,": "L.I.P",
+      "name": "Balwinder Singh Bains"
+    },
+    {
+      "id,": 106,
+      "portfolio,": "MNS",
+      "name": "Raj Thackrey"
+    },
+    {
+      "id,": 107,
+      "portfolio,": "RLJP",
+      "name": "Pasupati Nath Paras"
+    },
+    {
+      "id,": 108,
+      "portfolio,": "RLJP(Ram Vilas)",
+      "name": "Chirag Paswan"
+    },
+    {
+      "id,": 109,
+      "portfolio,": "PLC",
+      "name": "Captain Amrinder Singh"
+    },
+    {
+      "id,": 110,
+      "portfolio,": "PLC",
+      "name": "Ajitpal Singh Kular "
+    },
+    {
+      "id,": 111,
+      "portfolio,": "Shivsena",
+      "name": "Uddhav Thackrey"
+    },
+    {
+      "id,": 112,
+      "portfolio,": "Shivsena",
+      "name": "Eknath Shinde"
+    },
+    {
+      "id,": 113,
+      "portfolio,": "Shivsena",
+      "name": "Sanjay Raut"
+    },
+    {
+      "id,": 114,
+      "portfolio,": "Shivsena",
+      "name": "Aditya Thackeray "
+    },
+    {
+      "id,": 115,
+      "portfolio,": "Shivsena",
+      "name": "Gulabrao Patil"
+    },
+    {
+      "id,": 116,
+      "portfolio,": "V.I.P",
+      "name": "Mukesh Sahni"
+    },
+    {
+      "id,": 117,
+      "portfolio,": "bjp",
+      "name": "rajyavardhan rathore"
+    },
+    {
+      "id,": 118,
+      "portfolio,": "A.I.U.D.F",
+      "name": "Badruddin Ajmal"
+    },
+    {
+      "id,": 119,
+      "portfolio,": "Attorney's ",
+      "name": "MC Mehta"
+    },
+    {
+      "id,": 120,
+      "portfolio,": "Attorney's",
+      "name": "kapil sibbal"
+    },
+    {
+      "id,": 121,
+      "portfolio,": "Attorney's",
+      "name": "harish salve"
+    },
+    {
+      "id,": 122,
+      "portfolio,": "Attorney's",
+      "name": "Prashant bhushan"
+    },
+    {
+      "id,": 123,
+      "portfolio,": "Attorney's",
+      "name": "Tushar Mehta"
+    }
+   ]

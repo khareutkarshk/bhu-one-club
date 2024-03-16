@@ -24,7 +24,6 @@ function Card({ data }: any) {
                 <div className="card-body flex">
                     <h2 className="card-title">{data.title}</h2>
                     <div className="badge float-right badge-success badge-outline">Know More</div>
-                    {pathname}
                 </div>
             </div>
         </>
