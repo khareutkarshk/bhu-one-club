@@ -27,7 +27,7 @@ function Mock() {
   return (
     <div className="card w-full bg-base-100 shadow-xl">
             <div className="card-body">
-                <h2 className="card-title justify-center text-3xl items-center">Fill this form!</h2>
+                <h2 className="card-title justify-center text-3xl items-center text-gray-900">Fill this form!</h2>
                 <div>
                     <form onSubmit={handleSubmit(submitClick)}>
                         <div className="form-control">

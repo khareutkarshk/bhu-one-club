@@ -22,7 +22,7 @@ function Card({ data }: any) {
             <div onClick={() => handleCardClick(data.slug)} className="card cursor-pointer card-compact w-72  bg-base-100 shadow-xl">
                 <Image src={data.image} alt="parliament" width={320} height={240}></Image>
                 <div className="card-body flex">
-                    <h2 className="card-title">{data.title}</h2>
+                    <h2 className="card-title text-gray-900">{data.title}</h2>
                     <div className="badge float-right badge-success badge-outline">Know More</div>
                 </div>
             </div>
