@@ -4,8 +4,8 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import bhu from "@/asset/bhu-logo.png";
 import { useState } from 'react';
 import Image from 'next/image';
-import YouthParliament from '@/Components/YouthParliament';
-import Sidebar from '@/Components/Sidebar';
+import YouthParliament from '@/components/YouthParliament';
+import Sidebar from '@/components/Sidebar';
 function Page() {
   const [isOpen, setIsOpen] = useState(false);
 

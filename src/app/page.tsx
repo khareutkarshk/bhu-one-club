@@ -10,12 +10,12 @@ import { MdOutlineContactPhone } from "react-icons/md";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { MdClose } from "react-icons/md";
 import bhu from "@/asset/bhu-logo.png";
-import Main from "@/Components/Main";
+import Main from "@/components/Main";
 import { useRouter } from "next/navigation";
 import event0 from '@/asset/event_0.png'
 import event1 from '@/asset/event_1.png'
 import event2 from '@/asset/event_2.png'
-import Sidebar from "@/Components/Sidebar";
+import Sidebar from "@/components/Sidebar";
 export default function Home() {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
