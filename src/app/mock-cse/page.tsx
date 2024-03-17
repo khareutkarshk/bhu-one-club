@@ -4,10 +4,10 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import bhu from "@/asset/bhu-logo.png";
 import { useState } from 'react';
 import Image from 'next/image';
-import YouthParliament from '@/components/YouthParliament';
-import Sidebar from '@/components/Sidebar';
-import QuizComponent from '@/components/QuizComponent';
-import Mock from '@/components/Mock';
+import YouthParliament from '@/Components/YouthParliament';
+import Sidebar from '@/Components/Sidebar';
+import QuizComponent from '@/Components/QuizComponent';
+import Mock from '@/Components/Mock';
 function Page() {
   const [isOpen, setIsOpen] = useState(false);
 

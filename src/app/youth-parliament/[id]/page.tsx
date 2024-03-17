@@ -4,8 +4,8 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import bhu from "@/asset/bhu-logo.png";
 import { useState } from 'react';
 import Image from 'next/image';
-import Sidebar from '@/components/Sidebar';
-import PortfolioForm from '@/components/PortfolioForm';
+import Sidebar from '@/Components/Sidebar';
+import PortfolioForm from '@/Components/PortfolioForm';
 function Page() {
   const [isOpen, setIsOpen] = useState(false);
 

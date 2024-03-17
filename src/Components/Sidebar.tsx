@@ -5,14 +5,14 @@ import { MdOutlineContactPhone } from "react-icons/md";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { MdClose } from "react-icons/md";
 import bhu from "@/asset/bhu-logo.png";
-import Main from "@/components/Main";
+import Main from "@/Components/Main";
 import { useState } from 'react';
 import Image from 'next/image';
 import logo from "@/asset/one_logo.webp"
 import { GiBlackHandShield } from "react-icons/gi";
 import { MdOutlineQuiz } from "react-icons/md";
 import { RxPencil2 } from "react-icons/rx";
-import YouthParliament from '@/components/YouthParliament';
+import YouthParliament from '@/Components/YouthParliament';
 import { LuInfo } from "react-icons/lu";
 import { useRouter } from 'next/navigation';
 function Sidebar({ isOpen, toggleSidebar}:any) {
