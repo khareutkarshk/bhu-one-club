@@ -1,22 +1,39 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY);
 
 export async function POST(request:NextRequest){
-
+    
     try{
+        const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY);
 
         const reqBody = await request.json();
-        const {name, email, mobileNumber, firstPreference, secondPreference, thirdPreference, experience, transactionId, category} = reqBody;
+        const {name, email, mobileNumber, firstPreference,schoolCollege, secondPreference, thirdPreference, experience, transactionId, category, quizCategory} = reqBody;
 
-        console.log(reqBody);
+        console.log('reqbody ',reqBody);
+        let mailBody;
+        switch (category) {
+            case 'Youth Parliament':
+                mailBody = `New Entry In ${category} Form\nName: ${name}\nEmail: ${email}\nMobile Number: ${mobileNumber}\nFirst Preference: ${firstPreference}\nSecond Preference: ${secondPreference}\nThird Preference: ${thirdPreference}\n Experience: ${experience}\n Transaction Id: ${transactionId} \n School/College ${schoolCollege}`
+                break;
+            case 'Quiz':
+                mailBody = `New Entry In ${category} Form\nName: ${name}\nEmail: ${email}\nMobile Number: ${mobileNumber}\nQuiz Category: ${quizCategory}\n Transaction Id: ${transactionId} \n School/College ${schoolCollege}`
+                break
+            case 'MOCK CSE': 
+                mailBody = `New Entry In ${category} Form\nName: ${name}\nEmail: ${email}\nMobile Number: ${mobileNumber}\nTransaction Id: ${transactionId}\n School/College ${schoolCollege}`
+                break
+            default:
+                break;
+        }
+
+        console.log('mailbody', mailBody);
+        
 
         const mail = await resend.emails.send({
             from: 'Hello <khareu450@1percentbhu.com>',
-            to: ['iace2.otheonepercent@gmail.com'],
+            to: ['khareu450@gmail.com'],
             subject: 'One BHU New Form Entry',
-            text: `New Entry In ${category} Form\nName: ${name}\nEmail: ${email}\nMobile Number: ${mobileNumber}\nFirst Preference: ${firstPreference}\nSecond Preference: ${secondPreference}\nThird Preference: ${thirdPreference}\n Experience: ${experience}\n Transaction Id: ${transactionId}`,
+            text: `Mail Body ${mailBody}`,
             headers: {
                 'X-Entity-Ref-ID': '123456789',
             },
@@ -28,7 +45,7 @@ export async function POST(request:NextRequest){
             ],
         });
 
-        console.log(mail);
+        console.log('mail ',mail);
         
 
 

@@ -76,7 +76,7 @@ function PortfolioForm() {
 
     const submitClick = async (data: any) => {
         setLoading(true);
-        const res = await axios.post('/api/send', {...data, 'category': 'Youh Parliament'});
+        const res = await axios.post('/api/send', {...data, 'category': 'Youth Parliament'});
         toast.success('We have saved your response.', {
             position: "top-right",
             autoClose: 5000,
@@ -141,7 +141,7 @@ function PortfolioForm() {
                                     loksabha.map((item: any) => (
                                         <option
                                             key={item.id}
-                                            value={item.id}
+                                            value={`${item.name} ${item.portfolio ? `${item.portfolio}` : null}`}
                                             disabled={selectedOptions.second === item.name || selectedOptions.third === item.name}
                                         >{item.name} {item.portfolio ? `${item.portfolio}` : null}</option>
                                     ))
@@ -159,7 +159,7 @@ function PortfolioForm() {
                                     loksabha.map((item: any) => (
                                         <option
                                             key={item.id}
-                                            value={item.id}
+                                            value={`${item.name} ${item.portfolio ? `${item.portfolio}` : null}`}
                                             disabled={selectedOptions.first === item.name || selectedOptions.third === item.name}
                                         >{item.name} {item.portfolio ? `${item.portfolio}` : null}</option>
                                     ))
@@ -177,7 +177,7 @@ function PortfolioForm() {
                                     loksabha.map((item: any) => (
                                         <option
                                             key={item.id}
-                                            value={item.id}
+                                            value={`${item.name} ${item.portfolio ? `${item.portfolio}` : null}`}
                                             disabled={selectedOptions.first === item.name || selectedOptions.second === item.name}
                                         >{item.name} {item.portfolio ? `${item.portfolio}` : null}</option>
                                     ))

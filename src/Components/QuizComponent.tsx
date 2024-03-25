@@ -20,19 +20,26 @@ function QuizComponent() {
     const [amount, setAmount] = useState(299);
     const [loading, setLoading] = useState(false);
     const submitClick = async (data: any) => {
-        setLoading(true);
-        const res = await axios.post('/api/send', {...data, 'category': 'Quiz'});
-        toast.success('We have saved your response.', {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "light",
-        });
-        setLoading(false);
+        try {
+            setLoading(true);
+            console.log(data);
+            const res = await axios.post('/api/send', {...data, 'category': 'Quiz'});
+            toast.success('We have saved your response.', {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+            });
+            setLoading(false);
+        } catch (error) {
+            console.log(error);
+            setLoading(false);
+            
+        }
     }
   return (
     <div className="card w-full bg-base-100 shadow-xl">
@@ -76,10 +83,10 @@ function QuizComponent() {
                             </label>
                             <select {...register('quizCategory', { required: true })} className="select select-bordered select-info text-gray-900">
                                 <option value="">Select Quiz Category</option>
-                                <option value="Lok Sabha">Sports</option>
-                                <option value="AIPPM">Science & Technology</option>
-                                <option value="NMC">General Quiz</option>
-                                <option value="UNGA">World Affairs</option>
+                                <option value="Sports">Sports</option>
+                                <option value="Science & Technology">Science & Technology</option>
+                                <option value="General Quiz">General Quiz</option>
+                                <option value="World Affairs">World Affairs</option>
                             </select>
                         </div>
                     
