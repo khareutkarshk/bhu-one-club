@@ -31,7 +31,7 @@ export async function POST(request:NextRequest){
 
         const mail = await resend.emails.send({
             from: 'Hello <khareu450@1percentbhu.com>',
-            to: ['khareu450@gmail.com'],
+            to: ['iace2.otheonepercent@gmail.com'],
             subject: 'One BHU New Form Entry',
             text: `Mail Body ${mailBody}`,
             headers: {
