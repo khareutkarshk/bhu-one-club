@@ -40,7 +40,7 @@ function Main() {
                     ))
                 }
                 <div className="md:w-2/3 w-full">
-                <div className='text-3xl flex justify-center font-bold'>
+                <div className='text-3xl flex justify-left text-gray-900 font-bold'>
                     Previous Events
                 </div>
                 <div className="carousel w-full">

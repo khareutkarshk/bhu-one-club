@@ -41,24 +41,24 @@ function Page() {
         <main className="p-8">
         <div className="card w-full h-dvh bg-base-100 shadow-xl">
             <div className="card-body">
-                <h2 className="card-title text-3xl">Contact Us</h2>
-                <div>If you have any queries, feel free to contact us. We will get back to you as soon as possible.</div>
+                <h2 className="card-title text-3xl text-gray-900">Contact Us</h2>
+                <div className="text-gray-900">If you have any queries, feel free to contact us. We will get back to you as soon as possible.</div>
                 <div className="flex gap-4">
                     <div className="flex gap-1 text-xl items-center">
                         <span><BsWhatsapp></BsWhatsapp></span>
-                        <p>+91 1234567890</p>
+                        <p className="text-gray-900">+91 8512 80017, +91 78003 36600</p>
                     </div>
                 </div>
                 <div className="flex gap-4">
                     <div className="flex gap-1 text-xl items-center">
                         <span><SiGmail></SiGmail></span>
-                        <p>theonepercentbhu@gmail.com</p>
+                        <p className="text-gray-900">theonepercentbhu@gmail.com</p>
                     </div>
                 </div>
                 <div className="flex gap-4">
                     <div className="flex gap-1 text-xl items-center">
                         <span><FaInstagram></FaInstagram></span>
-                        <p>@ig_the1percentclub</p>
+                        <p className="text-gray-900">@ig_the1percentclub</p>
                     </div>
                 </div>
                 

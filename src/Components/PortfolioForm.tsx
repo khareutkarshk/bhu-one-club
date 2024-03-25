@@ -14,6 +14,7 @@ import axios from 'axios';
 import qr from "@/asset/qr.jpg"
 import Image from 'next/image';
 import upvs from '@/constant/upVidhan.json'
+import { toast } from 'react-toastify';
 function PortfolioForm() {
     const pathname = usePathname();
     const { register, handleSubmit, formState: { errors }, watch } = useForm();
@@ -24,6 +25,7 @@ function PortfolioForm() {
     const thirdPreference = watch("thirdPreference");
     const [loksabha, setLoksabha] = useState<any>([])
     const [loading, setLoading] = useState(false);
+    const [pageName, setPageName] = useState<any>('');
     useEffect(() => {
         setSelectedOptions({ first: firstPreference, second: secondPreference, third: thirdPreference });
         console.log(selectedOptions);
@@ -32,6 +34,10 @@ function PortfolioForm() {
 
 
     useEffect(() => {
+        let pageTitle = pathname.split('/')[2];
+        let pageTitleArray = pageTitle.split('-');
+        pageTitleArray = pageTitleArray.map((item: any) => item.charAt(0).toUpperCase() + item.slice(1) + ' ');
+        setPageName(pageTitleArray);
         if (pathname === '/youth-parliament/lok-sabha') {
             setLoksabha(lokSabha)
             setamount(800)
@@ -71,41 +77,50 @@ function PortfolioForm() {
     const submitClick = async (data: any) => {
         setLoading(true);
         const res = await axios.post('/api/send', {...data, 'category': 'Youh Parliament'});
-        alert('Form Submitted Successfully');
+        toast.success('We have saved your response.', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+        });
         setLoading(false);
     }
     return (
         <div className="card w-full bg-base-100 shadow-xl">
             <div className="card-body">
-                <h2 className="card-title justify-center text-3xl items-center text-gray-900">Fill this form!</h2>
+                <h2 className="card-title justify-center text-3xl items-center text-gray-900">Register for {pageName}</h2>
                 <div>
                     <form onSubmit={handleSubmit(submitClick)}>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Name</span>
                             </label>
-                            <input type="text" placeholder='Enter Your Name' {...register('name', { required: true })} className="input input-bordered input-primary" />
+                            <input type="text" placeholder='Enter Your Name' {...register('name', { required: true })} className="input input-bordered input-info" />
                             {errors.name && <span className="text-red-500 text-sm mt-1">This field is required</span>}
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Email</span>
                             </label>
-                            <input type="email" placeholder='Enter Email' {...register('email', { required: true })} className="input input-bordered input-primary" />
+                            <input type="email" placeholder='Enter Email' {...register('email', { required: true })} className="input input-bordered input-info" />
                             {errors.email && <span className="text-red-500 text-sm mt-1">This field is required</span>}
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Mobile Number</span>
                             </label>
-                            <input type="tel" placeholder='Enter your 10 digit mobile number' {...register('mobileNumber', { required: true })} className="input input-bordered input-primary" />
+                            <input type="tel" placeholder='Enter your 10 digit mobile number' {...register('mobileNumber', { required: true })} className="input input-bordered input-info" />
                             {errors.mobileNumber && <span className="text-red-500 text-sm mt-1">This field is required</span>}
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">School/College</span>
                             </label>
-                            <input type="text" placeholder='Enter Your School/College Name' {...register('schoolCollege', { required: true })} className="input input-bordered input-primary" />
+                            <input type="text" placeholder='Enter Your School/College Name' {...register('schoolCollege', { required: true })} className="input input-bordered input-info" />
                             {errors.schoolCollege && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
                         </div>
                         <div className="form-control">
@@ -113,14 +128,14 @@ function PortfolioForm() {
                                 <span className="label-text">Experience</span>
                             </label>
 
-                            <textarea placeholder='Share Your Experience...' {...register('experience', { required: true })} className="textarea textarea-bordered textarea-primary" />
+                            <textarea placeholder='Share Your Experience...' {...register('experience', { required: true })} className="textarea textarea-bordered textarea-info" />
                             {errors.experience && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Portfolio First Preference</span>
                             </label>
-                            <select className='select select-bordered w-full select-primary'  {...register('firstPreference', { required: true })}>
+                            <select className='select select-bordered w-full select-info'  {...register('firstPreference', { required: true })}>
                                 <option>Select Your Preference</option>
                                 {
                                     loksabha.map((item: any) => (
@@ -138,7 +153,7 @@ function PortfolioForm() {
                             <label className="label">
                                 <span className="label-text">Portfolio Second Preference</span>
                             </label>
-                            <select className='select select-bordered w-full select-primary'  {...register('secondPreference', { required: true })}>
+                            <select className='select select-bordered w-full select-info'  {...register('secondPreference', { required: true })}>
                                 <option>Select Your Preference</option>
                                 {
                                     loksabha.map((item: any) => (
@@ -156,7 +171,7 @@ function PortfolioForm() {
                             <label className="label">
                                 <span className="label-text">Portfolio Third Preference</span>
                             </label>
-                            <select className='select select-bordered w-full select-primary'  {...register('thirdPreference', { required: true })}>
+                            <select className='select select-bordered w-full select-info'  {...register('thirdPreference', { required: true })}>
                                 <option>Select Your Preference</option>
                                 {
                                     loksabha.map((item: any) => (
@@ -178,11 +193,11 @@ function PortfolioForm() {
                             <div className='flex mb-2 justify-center'>
                                 <Image src={qr} width={300} alt='UPI QR tag'></Image>
                             </div>
-                            <input type="text" placeholder='Enter Transaction Id' {...register('transactionId', { required: true })} className="input input-bordered input-primary" />
+                            <input type="text" placeholder='Enter Transaction Id' {...register('transactionId', { required: true })} className="input input-bordered input-info" />
                             {errors.transactionId && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
                         </div>
                         <div className="form-control">
-                            <button type="submit" disabled={loading} className="btn btn-primary mt-3">{
+                            <button type="submit" disabled={loading} className="btn btn-neutral mt-3">{
                                 loading ? 'Processing...' : 'Submit'
                             
                             }</button>

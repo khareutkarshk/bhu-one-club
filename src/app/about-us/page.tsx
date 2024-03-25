@@ -41,11 +41,11 @@ function Page() {
                     <main className="p-8">
                         <div className="card w-full h-dvh bg-base-100 shadow-xl">
                             <div className="card-body">
-                                <h2 className="card-title text-3xl">About Us</h2>
+                                <h2 className="card-title text-3xl text-gray-900">About Us</h2>
 
-                                <div className='font-bold mt-4'>The One% Club</div>
+                                <div className='font-bold mt-4 text-gray-900'>The One% Club</div>
 
-                                <div>
+                                <div className="text-gray-900">
                                     Welcome to The One% Club – your premier destination for UPSC exam preparation excellence. <br />
                                     We foster a collaborative community where members exchange ideas, strategies, and
                                     experiences to enhance their learning journey. With access to study materials, online resources,
