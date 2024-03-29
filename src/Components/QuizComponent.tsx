@@ -16,9 +16,28 @@ import Image from 'next/image';
 import upvs from '@/constant/upVidhan.json'
 import { toast } from 'react-toastify';
 function QuizComponent() {
+    const pathname = usePathname();
     const { register, handleSubmit, formState: { errors }, watch } = useForm();
     const [amount, setAmount] = useState(299);
     const [loading, setLoading] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
+    const closeModal = () => setIsOpen(false);
+    const [modelContent, setModelContent] = useState(``)
+
+    useEffect(()=>{
+        if(pathname === '/quiz'){
+            setModelContent(`<h1 class="text-2xl font-bold mb-4">Quizes</h1>
+            <p class="text-base text-justify">A National Level quiz competition is a prestigious event that brings together participants across the nation to test their skill,ability, performance, aptitude and much more.The battleground of knowledge where curious minds meet challenging questions,create a spectacle that is both entertaining, knowledgeable,develop creative thinking and competitive environment and also offers a platforms for individuals to learn each other's perspectives and experiences <br/>
+            Our community,The One % Club, feels immense pleasure to announce the  National Level Quiz Competition in our Civil Services Fest I- ACE 2.O,2024
+            We will be having 4 different genres:<br/>
+            1. SPORTS - Sports quiz involves creating engaging and challenging related to various sports while keeping them entertained and informed about the world of sports<br/>
+            2. SCIENCE AND TECHNOLOGY - It will involve crafting questions that challenge participants knowledge of scientific concepts,technological advancements, inventions and discoveries<br/>
+            3. GENERAL QUIZ - A dynamic and entertaining quiz,creating a mix of questions that challenge participants knowledge across various topics including history, geography, polity, science,literature and more<br/>
+            4. WORLD AFFAIRS - A fun and interactive way to test your knowledge of global  events,current international issues, world leader and cultural aspects that will educate and challenge the participants while increasing their awareness of global events and trends
+            Overall,The Natinal Level Quiz Competition is not only a platform of testing the individual's knowledge but here you can experience exchange of knowledge and learning and also intellectual growth among participants</p>`)
+        }
+    }, [])
+
     const submitClick = async (data: any) => {
         try {
             setLoading(true);
@@ -43,8 +62,23 @@ function QuizComponent() {
     }
   return (
     <div className="card w-full bg-base-100 shadow-xl">
-            <div className="card-body">
+            <div className="card-body relative">
                 <h2 className="card-title justify-center text-3xl items-center text-gray-900">Register for Quiz</h2>
+                <div>
+                    {isOpen ? (
+                        <div className="absolute top-0 left-0 flex items-center justify-center z-50">
+                            <div className="bg-gray-800 bg-opacity-80 rounded shadow-lg p-4 sm:p-8 md:p-6 m-4 sm:m-0 md:w-full md:h-full max-h-full text-center z-50 overflow-auto">
+                                <div className='text-white' dangerouslySetInnerHTML={{ __html: modelContent }}></div>
+                                <button
+                                    onClick={closeModal}
+                                    className="mt-4 px-4 py-2 text-white bg-blue-500 rounded"
+                                >
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    ): null}
+                </div>
                 <div>
                     <form onSubmit={handleSubmit(submitClick)}>
                         <div className="form-control">

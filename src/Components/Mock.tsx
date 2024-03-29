@@ -16,9 +16,36 @@ import Image from 'next/image';
 import upvs from '@/constant/upVidhan.json'
 import { toast } from 'react-toastify';
 function Mock() {
+    const pathname = usePathname();
     const { register, handleSubmit, formState: { errors }, watch } = useForm();
     const [amount, setAmount] = useState(899);
     const [loading, setLoading] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
+    const closeModal = () => setIsOpen(false);
+    const [modelContent, setModelContent] = useState(``)
+
+
+    useEffect(()=>{
+        if(pathname === '/mock-cse'){
+            setModelContent(`<h1 class="text-2xl font-bold mb-4">MOOCK CIVIL SERVICES EXAMINATION</h1>
+            <p class="text-base text-justify">"सफलता के लिए संकल्पित होना ही काफ़ी भी है,उसे प्राप्त करने के लिए करवाई करना भी जरूरी है"। 
+            <br/>
+            <br/>
+
+            Embark your UPSC journey by enhancing your preparation through the mock test.This mock exam can become a valuable tool for your preparation,track the progress and increase your chances of success in the highly competitive Civil Services Examinations..            <br/>
+
+            We are presenting before you a complete UPSC CSE Mock Exam for those who want to identify their strengths and weaknesses,can focus on areas that need improvement and boost their confidence before the actual exam.A complete journey and a roadmap which will include Prelims,Mains,CSAT paper as well as the interview to check your preparation for those who are ready for the exam and also for the beginners to know about the exams.             <br/>
+            <br/>
+
+            This will also provide a real time experience of attempting the UPSC exam, which can help to reduce anxiety and nervousness on the exam day.Give this mock exam whole heartedly and in the best way you can.
+            <br/>
+            <br/>
+            "Never do anything half heartedly,if you want something.You put all your heart into it or not at all.If you are not doing it with all your heart, then what's the point of doing it?"
+            <br/>
+                 ----DR.TANU JAIN MA'AM</p>`)
+        }
+    }, [])
+
     const submitClick = async (data: any) => {
         setLoading(true);
         const res = await axios.post('/api/send', {...data, 'category': 'MOCK CSE'});
@@ -36,8 +63,23 @@ function Mock() {
     }
   return (
     <div className="card w-full bg-base-100 shadow-xl">
-            <div className="card-body">
+            <div className="card-body relative">
                 <h2 className="card-title text-gray-900 justify-center text-3xl items-center">Register for Mock CSE</h2>
+                <div>
+                    {isOpen ? (
+                        <div className="absolute top-0 left-0 flex items-center justify-center z-50">
+                            <div className="bg-gray-800 bg-opacity-80 rounded shadow-lg p-4 sm:p-8 md:p-6 m-4 sm:m-0 md:w-full md:h-full max-h-full text-center z-50 overflow-auto">
+                                <div className='text-white' dangerouslySetInnerHTML={{ __html: modelContent }}></div>
+                                <button
+                                    onClick={closeModal}
+                                    className="mt-4 px-4 py-2 text-white bg-blue-500 rounded"
+                                >
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    ): null}
+                </div>
                 <div>
                     <form onSubmit={handleSubmit(submitClick)}>
                         <div className="form-control">
