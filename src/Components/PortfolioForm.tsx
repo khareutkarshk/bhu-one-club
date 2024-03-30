@@ -194,28 +194,28 @@ function PortfolioForm() {
                             <label className="label">
                                 <span className="label-text">Name</span>
                             </label>
-                            <input type="text" placeholder='Enter Your Name' {...register('name', { required: true })} className="input input-bordered input-info" />
+                            <input type="text" placeholder='Enter Your Name' {...register('name', { required: true })} className="input text-black input-bordered input-info" />
                             {errors.name && <span className="text-red-500 text-sm mt-1">This field is required</span>}
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Email</span>
                             </label>
-                            <input type="email" placeholder='Enter Email' {...register('email', { required: true })} className="input input-bordered input-info" />
+                            <input type="email" placeholder='Enter Email' {...register('email', { required: true })} className="input text-black input-bordered input-info" />
                             {errors.email && <span className="text-red-500 text-sm mt-1">This field is required</span>}
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Mobile Number</span>
                             </label>
-                            <input type="tel" placeholder='Enter your 10 digit mobile number' {...register('mobileNumber', { required: true })} className="input input-bordered input-info" />
+                            <input type="tel" placeholder='Enter your 10 digit mobile number' {...register('mobileNumber', { required: true })} className="input text-black input-bordered input-info" />
                             {errors.mobileNumber && <span className="text-red-500 text-sm mt-1">This field is required</span>}
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">School/College</span>
                             </label>
-                            <input type="text" placeholder='Enter Your School/College Name' {...register('schoolCollege', { required: true })} className="input input-bordered input-info" />
+                            <input type="text" placeholder='Enter Your School/College Name' {...register('schoolCollege', { required: true })} className="input text-black input-bordered input-info" />
                             {errors.schoolCollege && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
                         </div>
                         <div className="form-control">
@@ -223,14 +223,14 @@ function PortfolioForm() {
                                 <span className="label-text">Experience</span>
                             </label>
 
-                            <textarea placeholder='Share Your Experience...' {...register('experience', { required: true })} className="textarea textarea-bordered textarea-info" />
+                            <textarea placeholder='Share Your Experience...' {...register('experience', { required: true })} className="textarea text-black textarea-bordered textarea-info" />
                             {errors.experience && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Portfolio First Preference</span>
                             </label>
-                            <select className='select select-bordered w-full select-info'  {...register('firstPreference', { required: true })}>
+                            <select className='select select-bordered w-full select-info text-black'  {...register('firstPreference', { required: true })}>
                                 <option>Select Your Preference</option>
                                 {
                                     loksabha.map((item: any) => (
@@ -248,7 +248,7 @@ function PortfolioForm() {
                             <label className="label">
                                 <span className="label-text">Portfolio Second Preference</span>
                             </label>
-                            <select className='select select-bordered w-full select-info'  {...register('secondPreference', { required: true })}>
+                            <select className='select select-bordered w-full select-info text-black'  {...register('secondPreference', { required: true })}>
                                 <option>Select Your Preference</option>
                                 {
                                     loksabha.map((item: any) => (
@@ -266,7 +266,7 @@ function PortfolioForm() {
                             <label className="label">
                                 <span className="label-text">Portfolio Third Preference</span>
                             </label>
-                            <select className='select select-bordered w-full select-info'  {...register('thirdPreference', { required: true })}>
+                            <select className='select select-bordered w-full select-info text-black'  {...register('thirdPreference', { required: true })}>
                                 <option>Select Your Preference</option>
                                 {
                                     loksabha.map((item: any) => (
@@ -288,7 +288,7 @@ function PortfolioForm() {
                             <div className='flex mb-2 justify-center'>
                                 <Image src={qr} width={300} alt='UPI QR tag'></Image>
                             </div>
-                            <input type="text" placeholder='Enter Transaction Id' {...register('transactionId', { required: true })} className="input input-bordered input-info" />
+                            <input type="text" placeholder='Enter Transaction Id' {...register('transactionId', { required: true })} className="input text-black input-bordered input-info" />
                             {errors.transactionId && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
                         </div>
                         <div className="form-control">

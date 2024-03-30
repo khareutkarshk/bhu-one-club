@@ -23,7 +23,7 @@ function Page() {
         <header className="p-4">
         {
           !isOpen && (
-            <button onClick={toggleSidebar} className="p-4 text-2xl sm:hidden">
+            <button onClick={toggleSidebar} className="p-4 text-gray-900 text-2xl sm:hidden">
               <FaBarsStaggered></FaBarsStaggered>
             </button>
           )
