@@ -15,6 +15,7 @@ import Image from 'next/image';
 import upvs from '@/constant/upVidhan.json'
 import { toast } from 'react-toastify';
 import axios from 'axios';
+import Link from 'next/link';
 
 function PortfolioForm() {
     const pathname = usePathname();
@@ -241,6 +242,13 @@ function PortfolioForm() {
 
                             <textarea placeholder='Share Your Experience...' {...register('experience', { required: true })} className="textarea text-black textarea-bordered textarea-info" />
                             {errors.experience && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
+                        </div>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text font-bold">You can check out the portfolio matrix spreadsheet <Link className='text-blue-600 underline' target='_blank' href={'https://docs.google.com/spreadsheets/d/1r-ocW42d5FlkLIcH08HdjwZfu72qMeGn/edit?usp=sharing&ouid=104175915886779130478&rtpof=true&sd=true'}>here</Link> </span>
+                            </label>
+
+                            
                         </div>
                         <div className="form-control">
                             <label className="label">
