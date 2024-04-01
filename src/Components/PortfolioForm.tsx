@@ -153,26 +153,34 @@ function PortfolioForm() {
 
     const submitClick = async (data: any) => {
         
-        setLoading(true);
-        const payload = {...data, 
-            'ACCESS_TOKEN': 'bCXHldXmCdOR6ZIvHpDXGtQnUh99VXj6NfNw1YfThfKghGjCoS',
-            "form_name": "Youth Parliament"
-        };
-        console.log(payload);
-        
-        const mail = await axios.post('/api/send', { ...data, 'category': 'Youth Parliament' });
-        const res = await axios.post('/youth-parliament/new', payload);
-        toast.success('We have saved your response.', {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "light",
-        });
-        setLoading(false);
+        try {
+            setLoading(true);
+            const payload = {...data, 
+                'ACCESS_TOKEN': 'bCXHldXmCdOR6ZIvHpDXGtQnUh99VXj6NfNw1YfThfKghGjCoS',
+                "form_name": "Youth Parliament"
+            };
+            console.log(payload);
+            
+            const mail = await axios.post('/api/send', { ...data, 'category': 'Youth Parliament' });
+            const res = await axios.post('/youth-parliament/new', payload);
+            toast.success('We have saved your response.', {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+            });
+            setLoading(false);
+        } catch (error:any) {
+            setLoading(false);
+            console.log(error);
+            
+
+            
+        }
     }
 
     return (
