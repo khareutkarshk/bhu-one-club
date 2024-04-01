@@ -4,15 +4,15 @@ const nextConfig = {
       return [
         {
           source: '/youth-parliament/new',
-          destination: `${process.env.NEXT_PUBLIC_BACKEND_DOMAIN}/youth-parliament/new/`,
+          destination: `http://localhost:3001/youth-parliament/new/`,
         },
         {
           source: '/quiz/new',
-          destination: `${process.env.NEXT_PUBLIC_BACKEND_DOMAIN}/quiz/new/`,
+          destination: `http://localhost:3001/quiz/new/`,
         },
         {
           source: '/mock-test/new',
-          destination: `${process.env.NEXT_PUBLIC_BACKEND_DOMAIN}/mock-test/new/`,
+          destination: `http://localhost:3001/mock-test/new/`,
         },
       ];
     },
