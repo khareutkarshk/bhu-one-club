@@ -48,7 +48,12 @@ function Mock() {
 
     const submitClick = async (data: any) => {
         setLoading(true);
-        const res = await axios.post('/api/send', {...data, 'category': 'MOCK CSE'});
+        const payload = {
+            ...data,
+            ACCESS_TOKEN: "bCXHldXmCdOR6ZIvHpDXGtQnUh99VXj6NfNw1YfThfKghGjCoS"
+        }
+        const mail = await axios.post('/api/send', {...data, 'category': 'MOCK CSE'});
+        const res = await axios.post('/mock-test/new', payload)
         toast.success('We have saved your response.', {
             position: "top-right",
             autoClose: 5000,
@@ -100,14 +105,14 @@ function Mock() {
                             <label className="label">
                                 <span className="label-text">Mobile Number</span>
                             </label>
-                            <input type="tel" placeholder='Enter your 10 digit mobile number' {...register('mobileNumber', { required: true })} className="input input-bordered input-info text-gray-900" />
+                            <input type="tel" placeholder='Enter your 10 digit mobile number' {...register('mobile_number', { required: true })} className="input input-bordered input-info text-gray-900" />
                             {errors.mobileNumber && <span className="text-red-500 text-sm mt-1">This field is required</span>}
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">School/College</span>
                             </label>
-                            <input type="text" placeholder='Enter Your School/College Name' {...register('schoolCollege', { required: true })} className="input input-bordered input-info text-gray-900" />
+                            <input type="text" placeholder='Enter Your School/College Name' {...register('school', { required: true })} className="input input-bordered input-info text-gray-900" />
                             {errors.schoolCollege && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
                         </div>
                     
@@ -119,7 +124,7 @@ function Mock() {
                             <div className='flex mb-2 justify-center'>
                                 <Image src={qr} width={300} alt='UPI QR tag'></Image>
                             </div>
-                            <input type="text" placeholder='Enter Transaction Id' {...register('transactionId', { required: true })} className="input input-bordered input-info text-gray-900" />
+                            <input type="text" placeholder='Enter Transaction Id' {...register('utr', { required: true })} className="input input-bordered input-info text-gray-900" />
                             {errors.transactionId && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
                         </div>
                         <div className="form-control">

@@ -5,17 +5,25 @@ import Card from './Card';
 import parliament from "@/asset/parliament.jpg"
 import lokSabha from "@/constant/lokSabha.json"
 import { usePathname } from 'next/navigation';
+import unhrc from '@/asset/UNHRC.png';
+import lokSabhaImage from '@/asset/lokSabha.png'
+import aippm from "@/asset/AIPPM.png"
+import nmc from '@/asset/NMC.png'
+import vidhanSabha from '@/asset/upVidhanSabha.png';
+import unWomem from '@/asset/UNW.png';
+import unga from '@/asset//UNGA.png';
+
 function YouthParliament() {
     const pathname = usePathname();
     const [data, setData] = useState(
         [
-            { id: 1, title: 'Lok Sabha', image: parliament, portfolio: lokSabha, slug:"lok-sabha"},
-            { id: 2, title: 'AIPPM', image: parliament, slug: "aippm"},
-            { id: 3, title: 'NMC', image: parliament, slug: "nmc"},
-            { id: 4, title: 'UP Vidhan Sabha', image: parliament, slug: 'up-vidhan-sabha' },
-            { id: 5, title: 'UNHRC', image: parliament, slug: "unhrc"},
-            { id: 6, title: 'UN Women', image: parliament, slug: "un-women"},
-            { id: 7, title: 'UN General Assembly', image: parliament, slug: "unga"},
+            { id: 1, title: 'Lok Sabha', image: lokSabhaImage, portfolio: lokSabha, slug:"lok-sabha"},
+            { id: 2, title: 'AIPPM', image: aippm, slug: "aippm"},
+            { id: 3, title: 'NMC', image: nmc, slug: "nmc"},
+            { id: 4, title: 'UP Vidhan Sabha', image: vidhanSabha, slug: 'up-vidhan-sabha' },
+            { id: 5, title: 'UNHRC', image: unhrc, slug: "unhrc"},
+            { id: 6, title: 'UN Women', image: unWomem, slug: "un-women"},
+            { id: 7, title: 'UN General Assembly', image: unga, slug: "unga"},
             // { id: 8, title: 'Press Conclave', image: parliament }
         ]
     )

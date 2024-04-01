@@ -5,7 +5,9 @@ import { Resend } from "resend";
 export async function POST(request:NextRequest){
     
     try{
+
         const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY);
+        resend.domains.create({ name: '1percentbhu.com' });
 
         const reqBody = await request.json();
         const {name, email, mobileNumber, firstPreference,schoolCollege, secondPreference, thirdPreference, experience, transactionId, category, quizCategory} = reqBody;

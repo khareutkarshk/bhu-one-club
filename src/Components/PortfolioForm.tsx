@@ -10,11 +10,11 @@ import nmc from "@/constant/nmc.json"
 import unga from "@/constant/unga.json"
 import unWomen from "@/constant/unWomen.json"
 import unhrc from "@/constant/unhrc.json"
-import axios from 'axios';
 import qr from "@/asset/qr.jpg"
 import Image from 'next/image';
 import upvs from '@/constant/upVidhan.json'
 import { toast } from 'react-toastify';
+import axios from 'axios';
 
 function PortfolioForm() {
     const pathname = usePathname();
@@ -152,8 +152,16 @@ function PortfolioForm() {
 
 
     const submitClick = async (data: any) => {
+        
         setLoading(true);
-        const res = await axios.post('/api/send', { ...data, 'category': 'Youth Parliament' });
+        const payload = {...data, 
+            'ACCESS_TOKEN': 'bCXHldXmCdOR6ZIvHpDXGtQnUh99VXj6NfNw1YfThfKghGjCoS',
+            "form_name": "Youth Parliament"
+        };
+        console.log(payload);
+        
+        const mail = await axios.post('/api/send', { ...data, 'category': 'Youth Parliament' });
+        const res = await axios.post('/youth-parliament/new', payload);
         toast.success('We have saved your response.', {
             position: "top-right",
             autoClose: 5000,
@@ -208,14 +216,14 @@ function PortfolioForm() {
                             <label className="label">
                                 <span className="label-text">Mobile Number</span>
                             </label>
-                            <input type="tel" placeholder='Enter your 10 digit mobile number' {...register('mobileNumber', { required: true })} className="input text-black input-bordered input-info" />
+                            <input type="tel" placeholder='Enter your 10 digit mobile number' {...register('mobile_number', { required: true })} className="input text-black input-bordered input-info" />
                             {errors.mobileNumber && <span className="text-red-500 text-sm mt-1">This field is required</span>}
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">School/College</span>
                             </label>
-                            <input type="text" placeholder='Enter Your School/College Name' {...register('schoolCollege', { required: true })} className="input text-black input-bordered input-info" />
+                            <input type="text" placeholder='Enter Your School/College Name' {...register('school', { required: true })} className="input text-black input-bordered input-info" />
                             {errors.schoolCollege && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
                         </div>
                         <div className="form-control">
@@ -230,7 +238,7 @@ function PortfolioForm() {
                             <label className="label">
                                 <span className="label-text">Portfolio First Preference</span>
                             </label>
-                            <select className='select select-bordered w-full select-info text-black'  {...register('firstPreference', { required: true })}>
+                            <select className='select select-bordered w-full select-info text-black'  {...register('portfolio_first', { required: true })}>
                                 <option>Select Your Preference</option>
                                 {
                                     loksabha.map((item: any) => (
@@ -248,7 +256,7 @@ function PortfolioForm() {
                             <label className="label">
                                 <span className="label-text">Portfolio Second Preference</span>
                             </label>
-                            <select className='select select-bordered w-full select-info text-black'  {...register('secondPreference', { required: true })}>
+                            <select className='select select-bordered w-full select-info text-black'  {...register('portfolio_second', { required: true })}>
                                 <option>Select Your Preference</option>
                                 {
                                     loksabha.map((item: any) => (
@@ -266,7 +274,7 @@ function PortfolioForm() {
                             <label className="label">
                                 <span className="label-text">Portfolio Third Preference</span>
                             </label>
-                            <select className='select select-bordered w-full select-info text-black'  {...register('thirdPreference', { required: true })}>
+                            <select className='select select-bordered w-full select-info text-black'  {...register('portfolio_third', { required: true })}>
                                 <option>Select Your Preference</option>
                                 {
                                     loksabha.map((item: any) => (
@@ -288,7 +296,7 @@ function PortfolioForm() {
                             <div className='flex mb-2 justify-center'>
                                 <Image src={qr} width={300} alt='UPI QR tag'></Image>
                             </div>
-                            <input type="text" placeholder='Enter Transaction Id' {...register('transactionId', { required: true })} className="input text-black input-bordered input-info" />
+                            <input type="text" placeholder='Enter Transaction Id' {...register('utr', { required: true })} className="input text-black input-bordered input-info" />
                             {errors.transactionId && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
                         </div>
                         <div className="form-control">
