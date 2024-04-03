@@ -52,7 +52,7 @@ function QuizComponent() {
             
 
             toast.success('We have saved your response.', {
-                position: "top-right",
+                position: "top-center",
                 autoClose: 5000,
                 hideProgressBar: false,
                 closeOnClick: true,

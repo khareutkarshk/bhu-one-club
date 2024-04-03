@@ -165,7 +165,7 @@ function PortfolioForm() {
             const mail = await axios.post('/api/send', { ...data, 'category': 'Youth Parliament' });
             const res = await axios.post('/youth-parliament/new', payload);
             toast.success('We have saved your response.', {
-                position: "top-right",
+                position: "top-center",
                 autoClose: 5000,
                 hideProgressBar: false,
                 closeOnClick: true,

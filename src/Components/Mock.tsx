@@ -55,7 +55,7 @@ function Mock() {
         const mail = await axios.post('/api/send', {...data, 'category': 'MOCK CSE'});
         const res = await axios.post('/mock-test/new', payload)
         toast.success('We have saved your response.', {
-            position: "top-right",
+            position: "top-center",
             autoClose: 5000,
             hideProgressBar: false,
             closeOnClick: true,
