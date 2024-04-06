@@ -309,7 +309,7 @@ function PortfolioForm() {
                             <label className="label">
                                 <span className="label-text">Discount Coupon</span>
                             </label>
-                            <input type="text" placeholder='Enter Your School/College Name' {...register('discount_coupon')} className="input text-black input-bordered input-info" />
+                            <input type="text" placeholder='Discount Coupon' {...register('discount_coupon')} className="input text-black input-bordered input-info" />
                         </div>
                         <div className="form-control">
                             <label className="label">
