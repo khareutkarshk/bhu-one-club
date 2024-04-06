@@ -47,7 +47,7 @@ function QuizComponent() {
 
             }
 
-            const mail = await axios.post('/api/send', {...data, 'category': 'Quiz'});
+            // const mail = await axios.post('/api/send', {...data, 'category': 'Quiz'});
             const res = await axios.post('/quiz/new', payload)
             
 
@@ -131,6 +131,12 @@ function QuizComponent() {
                                 <option value="World Affairs">World Affairs</option>
                             </select>
                         </div>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text">Discount Coupon</span>
+                            </label>
+                            <input type="text" placeholder='Enter Your School/College Name' {...register('discount_coupon')} className="input text-black input-bordered input-info" />
+                        </div>
                     
                         <div className="form-control">
                             <label className="label">
@@ -148,6 +154,13 @@ function QuizComponent() {
                                 loading ? 'Processing...' : 'Submit'
                             
                             }</button>
+                        </div>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text font-bold">For Payment or form related issue, contact on +91 93344 16542</span>
+                            </label>
+
+                            
                         </div>
                     </form>
                 </div>

@@ -23,7 +23,7 @@ function YouthParliament() {
             { id: 4, title: 'UP Vidhan Sabha', image: vidhanSabha, slug: 'up-vidhan-sabha' },
             { id: 5, title: 'UNHRC', image: unhrc, slug: "unhrc"},
             { id: 6, title: 'UN Women', image: unWomem, slug: "un-women"},
-            { id: 7, title: 'UN General Assembly', image: unga, slug: "unga"},
+            { id: 7, title: 'Crisis Committee', image: unga, slug: "crisis-committee"},
             // { id: 8, title: 'Press Conclave', image: parliament }
         ]
     )

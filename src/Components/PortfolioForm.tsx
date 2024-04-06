@@ -16,6 +16,7 @@ import upvs from '@/constant/upVidhan.json'
 import { toast } from 'react-toastify';
 import axios from 'axios';
 import Link from 'next/link';
+import ccc from '@/constant/ccc.json'
 
 function PortfolioForm() {
     const pathname = usePathname();
@@ -95,11 +96,11 @@ function PortfolioForm() {
             The question of citizenship has always been dwelling between the ideology of the leaders as the constitution is silent over it and it's the institution that defines and refines it time to time how will two HMs of India namely shah and patel react over the question of citizenship.we invite you to dive in this all sound conference having the leadeds best of their times.</p>`)
 
         }
-        else if (pathname === '/youth-parliament/unga') {
-            setLoksabha(unga)
+        else if (pathname === '/youth-parliament/crisis-committee') {
+            setLoksabha(ccc)
             setamount(700)
-            setModelContent(`<h1 class="text-2xl font-bold mb-4">UNGA</h1>
-            <p class="text-base text-justify">The United Nations General Assembly is the principal policy-making body of UN. Inclusive of all 193 member states,  The UNGA offers a forum for deliberation upon global issues, including peace and security, cross-border terrorism, international law and human rights. Each nation state has an equal vote in the General Assembly, therefore, fostering cooperation and promoting collective action to resolve issues in a multilateral fashion.
+            setModelContent(`<h1 class="text-2xl font-bold mb-4">Crisis Committee</h1>
+            <p class="text-base text-justify">The Crisis Committee is the principal policy-making body of UN. Inclusive of all 193 member states,  The UNGA offers a forum for deliberation upon global issues, including peace and security, cross-border terrorism, international law and human rights. Each nation state has an equal vote in the General Assembly, therefore, fostering cooperation and promoting collective action to resolve issues in a multilateral fashion.
             <br/>
             <br/>
             AGENDA: Working on UN reforms with respect to addressing contemporary security challenges.
@@ -158,11 +159,11 @@ function PortfolioForm() {
             setLoading(true);
             const payload = {...data, 
                 'ACCESS_TOKEN': 'bCXHldXmCdOR6ZIvHpDXGtQnUh99VXj6NfNw1YfThfKghGjCoS',
-                "form_name": "Youth Parliament"
+                "form_name": `${pageName}`
             };
             console.log(payload);
             
-            const mail = await axios.post('/api/send', { ...data, 'category': 'Youth Parliament' });
+            // const mail = await axios.post('/api/send', data);
             const res = await axios.post('/youth-parliament/new', payload);
             toast.success('We have saved your response.', {
                 position: "top-center",
@@ -226,14 +227,14 @@ function PortfolioForm() {
                                 <span className="label-text">Mobile Number</span>
                             </label>
                             <input type="tel" placeholder='Enter your 10 digit mobile number' {...register('mobile_number', { required: true })} className="input text-black input-bordered input-info" />
-                            {errors.mobileNumber && <span className="text-red-500 text-sm mt-1">This field is required</span>}
+                            {errors.mobile_number && <span className="text-red-500 text-sm mt-1">This field is required</span>}
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">School/College</span>
                             </label>
                             <input type="text" placeholder='Enter Your School/College Name' {...register('school', { required: true })} className="input text-black input-bordered input-info" />
-                            {errors.schoolCollege && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
+                            {errors.school && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
                         </div>
                         <div className="form-control">
                             <label className="label">
@@ -266,7 +267,7 @@ function PortfolioForm() {
                                     ))
                                 }
                             </select>
-                            {errors.firstPreference && <span className="text-red-500 text-sm mt-1">This field is required</span>}
+                            {errors.portfolio_first && <span className="text-red-500 text-sm mt-1">This field is required</span>}
                         </div>
                         <div className="form-control">
                             <label className="label">
@@ -284,7 +285,7 @@ function PortfolioForm() {
                                     ))
                                 }
                             </select>
-                            {errors.secondPreference && <span className="text-red-500 text-sm mt-1">This field is required</span>}
+                            {errors.portfolio_second && <span className="text-red-500 text-sm mt-1">This field is required</span>}
                         </div>
                         <div className="form-control">
                             <label className="label">
@@ -302,7 +303,13 @@ function PortfolioForm() {
                                     ))
                                 }
                             </select>
-                            {errors.thirdPreference && <span className="text-red-500 text-sm mt-1">This field is required</span>}
+                            {errors.portfolio_third && <span className="text-red-500 text-sm mt-1">This field is required</span>}
+                        </div>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text">Discount Coupon</span>
+                            </label>
+                            <input type="text" placeholder='Enter Your School/College Name' {...register('discount_coupon')} className="input text-black input-bordered input-info" />
                         </div>
                         <div className="form-control">
                             <label className="label">
@@ -313,13 +320,20 @@ function PortfolioForm() {
                                 <Image src={qr} width={300} alt='UPI QR tag'></Image>
                             </div>
                             <input type="text" placeholder='Enter Transaction Id' {...register('utr', { required: true })} className="input text-black input-bordered input-info" />
-                            {errors.transactionId && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
+                            {errors.utr && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
                         </div>
                         <div className="form-control">
                             <button type="submit" disabled={loading} className="btn btn-neutral mt-3">{
                                 loading ? 'Processing...' : 'Submit'
 
                             }</button>
+                        </div>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text font-bold">For Payment or form related issue, contact on +91 93344 16542</span>
+                            </label>
+
+                            
                         </div>
                     </form>
                 </div>

@@ -52,7 +52,7 @@ function Mock() {
             ...data,
             ACCESS_TOKEN: "bCXHldXmCdOR6ZIvHpDXGtQnUh99VXj6NfNw1YfThfKghGjCoS"
         }
-        const mail = await axios.post('/api/send', {...data, 'category': 'MOCK CSE'});
+        // const mail = await axios.post('/api/send', {...data, 'category': 'MOCK CSE'});
         const res = await axios.post('/mock-test/new', payload)
         toast.success('We have saved your response.', {
             position: "top-center",
@@ -106,14 +106,21 @@ function Mock() {
                                 <span className="label-text">Mobile Number</span>
                             </label>
                             <input type="tel" placeholder='Enter your 10 digit mobile number' {...register('mobile_number', { required: true })} className="input input-bordered input-info text-gray-900" />
-                            {errors.mobileNumber && <span className="text-red-500 text-sm mt-1">This field is required</span>}
+                            {errors.mobile_number && <span className="text-red-500 text-sm mt-1">This field is required</span>}
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">School/College</span>
                             </label>
                             <input type="text" placeholder='Enter Your School/College Name' {...register('school', { required: true })} className="input input-bordered input-info text-gray-900" />
-                            {errors.schoolCollege && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
+                            {errors.school && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
+                        </div>
+
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text">Discount Coupon</span>
+                            </label>
+                            <input type="text" placeholder='Enter Your School/College Name' {...register('discount_coupon')} className="input text-black input-bordered input-info" />
                         </div>
                     
                         <div className="form-control">
@@ -125,13 +132,21 @@ function Mock() {
                                 <Image src={qr} width={300} alt='UPI QR tag'></Image>
                             </div>
                             <input type="text" placeholder='Enter Transaction Id' {...register('utr', { required: true })} className="input input-bordered input-info text-gray-900" />
-                            {errors.transactionId && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
+                            {errors.utr && <span className="text-red-500 mt-1 text-sm">This field is required</span>}
                         </div>
+                        
                         <div className="form-control">
                             <button type="submit" className="btn btn-neutral mt-3">{
                                 loading ? 'Processing...' : 'Submit'
                             
                             }</button>
+                        </div>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text font-bold">For Payment or form related issue, contact on +91 93344 16542</span>
+                            </label>
+
+                            
                         </div>
                     </form>
                 </div>
