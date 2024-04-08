@@ -133,9 +133,9 @@ function QuizComponent() {
                         </div>
                         <div className="form-control">
                             <label className="label">
-                                <span className="label-text">Discount Coupon</span>
+                                <span className="label-text">Referral Code</span>
                             </label>
-                            <input type="text" placeholder='Discount Coupon' {...register('discount_coupon')} className="input text-black input-bordered input-info" />
+                            <input type="text" placeholder='Referral Code' {...register('referral_code')} className="input text-black input-bordered input-info" />
                         </div>
                     
                         <div className="form-control">
