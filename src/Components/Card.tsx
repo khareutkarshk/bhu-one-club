@@ -10,11 +10,20 @@ function Card({ data }: any) {
     const pathname = usePathname();
 
     const handleCardClick = (path:any) => {
-        if(pathname === '/'){
-            router.push('/' + path);
+        // if(pathname === '/'){
+        //     router.push('/' + path);
 
-        }else if(pathname === '/youth-parliament'){
-            router.push('/youth-parliament/' + path);
+        // }else if(pathname === '/youth-parliament'){
+        //     // router.push('/youth-parliament/' + path);
+        // }
+        if(path === 'youth-parliament'){
+            window.open('https://forms.gle/czwMKVcMoikbB8u29', '_blank');
+        }else if(path === 'quiz'){
+            window.open('https://forms.gle/dqMhYL8FNhyHX1nD9', '_blank');
+        }else if(path === 'mock-cse'){
+            window.open('https://forms.gle/ouUUTdMGggUSCAfC6', '_blank');
+        }else if(path === 'combined-event-pass'){
+            window.open('https://forms.gle/TwrajMbwhmwV9uja8', '_blank');
         }
     }
     return (
