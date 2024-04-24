@@ -27,7 +27,7 @@ export default function RootLayout({
         {/* {children} */}
         {/* site under maintainance message
          */}
-        <div className=" text-grey text-9xl h-full text-center p-3">
+        <div className="flex justify-center items-center text-grey text-5xl h-full text-center p-3">
           Site is under maintainance. Please visit after some time.
         </div>
         </body>
