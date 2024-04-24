@@ -24,7 +24,12 @@ export default function RootLayout({
       
       <body className={inter.className}>
       <ToastContainer></ToastContainer>
-        {children}
+        {/* {children} */}
+        {/* site under maintainance message
+         */}
+        <div className=" text-grey text-9xl h-full text-center p-3">
+          Site is under maintainance. Please visit after some time.
+        </div>
         </body>
     </html>
   );
